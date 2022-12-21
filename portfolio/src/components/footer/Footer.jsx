@@ -1,11 +1,15 @@
 import React from 'react'
 import './footer.css'
+import {FaRegCopyright} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div>
+    <section className='secfoot'>
+      <div className="container footer">
       
-    </div>
+      <p className="footer-word"><FaRegCopyright/> Amirreza Aazam 2022. All rights reserved.</p>
+      </div>
+    </section>
   )
 }
 
